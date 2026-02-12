@@ -6,7 +6,7 @@ Collection of advanced Spatial SQL (PostGIS) scripts, data engineering workflows
 **File:** `telecom_address_sync.sql`
 
 ### Problem
-The telecom network planning team needed to update the fiber-optic coverage map with new address points from the National Register (PRG). The challenge was to import thousands of points weekly without creating duplicates for buildings that already existed in the internal inventory.
+The telecom network planning team needed to update the fiber-optic coverage map with new address points from the National Register (PRG). The challenge was to import hundreds of points weekly without creating duplicates for buildings that already existed in the internal inventory.
 
 ### Solution
 I developed a pure **PostgreSQL/PostGIS** automation script that:
