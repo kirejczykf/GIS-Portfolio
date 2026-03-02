@@ -31,7 +31,6 @@ usage_calculation AS (
             -- based on a random distribution within physical capacity limits.
             WHEN current_usage IS NULL AND total_capacity > 0 THEN
                 FLOOR(growth_factor * total_capacity + 1)
-
             -- SCENARIO 2: Existing Infrastructure (Organic Growth)
             -- Logic: 30% chance to update existing records.
             -- Apply a variation factor (+/- 10%) but ensure it never drops below 1 
