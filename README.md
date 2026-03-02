@@ -20,6 +20,9 @@ I developed a pure **PostgreSQL/PostGIS** automation script that:
 *   **Logic:** CTEs (Common Table Expressions), Spatial Joins, Window Functions
 *   **Tools:** QGIS (for visualization), Lizmap (for publishing results)
 
+### Code
+[View SQL Script](./telecom_address_sync.sql)
+
 ## Project 2: Automated Data Enrichment for Network Infrastructure
 
 ### Objective
