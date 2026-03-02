@@ -19,3 +19,18 @@ I developed a pure **PostgreSQL/PostGIS** automation script that:
 *   **Database:** PostgreSQL 14 + PostGIS 3.x
 *   **Logic:** CTEs (Common Table Expressions), Spatial Joins, Window Functions
 *   **Tools:** QGIS (for visualization), Lizmap (for publishing results)
+
+## Project 2: Automated Data Enrichment for Network Infrastructure
+
+### 🎯 Objective
+To automate the data quality assurance process for a fiber optic network inventory containing thousands of records. The goal was to eliminate NULL values and simulate realistic network load for regulatory compliance reporting (UKE).
+
+### ⚙️ Technical Solution
+I developed a robust PostgreSQL script that performs bulk updates based on conditional logic.
+*   **Common Table Expressions (CTEs):** Used to isolate the "snapshot" of the data and perform calculations without locking the main table for too long.
+*   **Probabilistic Modeling:** Implemented a randomized growth algorithm to simulate natural network usage patterns for new infrastructure.
+*   **Data Integrity Constraints:** Used `LEAST/GREATEST` and `COALESCE` functions to ensure the calculated values never exceed physical cable capacity or drop below logical zero.
+*   **Atomic Updates:** Utilized the `UPDATE ... FROM` syntax to apply changes efficiently in a single transaction.
+
+### 📄 Code
+[View SQL Script](./network_capacity_backfill.sql)
