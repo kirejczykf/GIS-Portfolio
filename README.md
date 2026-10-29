@@ -6,9 +6,7 @@
 ![QGIS & LizMap](https://img.shields.io/badge/WebGIS-QGIS_%26_LizMap-589632?logo=qgis&logoColor=white)
 ![CRS](https://img.shields.io/badge/CRS-EPSG%3A2180_(PUWG_1992)-informational)
 
-Production-inspired **Spatial SQL, PL/pgSQL, PostGIS, and WebGIS (LizMap JavaScript)** engineering modules designed for large-scale **FTTH (Fiber-to-the-Home) telecommunications network inventory** environments (**1M+ spatial records**, **100+ schemas**, **100+ concurrent internal users**).
-
-> **Data Sanitization Note:** All database schemas (`inventory`, `telecom`, `cadastre`, `reference`, `topography`, `ops`, `analytics`, `admin`), object identifiers, and test records in this repository have been fully anonymized into a clean, self-consistent English domain model. No proprietary company identifiers, customer data, or internal hostnames are included.
+Modular **Spatial SQL, PL/pgSQL, PostGIS, and WebGIS (LizMap JavaScript)** engineering solutions designed for large-scale **FTTH (Fiber-to-the-Home) telecommunications network inventory** environments (**1M+ spatial records**, **100+ schemas**, **100+ concurrent internal users**).
 
 ---
 
@@ -103,4 +101,4 @@ Keeps child apartment (`1..N`) and commercial (`C1..CN`) premise records synchro
 
 ## Author
 **Filip Kirejczyk** — GIS Specialist / Spatial Data Engineer  
-[LinkedIn](https://linkedin.com/in/filip-kirejczyk-46841622a) · Białystok, Poland
+[LinkedIn](https://www.linkedin.com/in/filip-kirejczyk-01962b33a) · Białystok, Poland
